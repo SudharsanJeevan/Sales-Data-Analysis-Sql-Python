@@ -2,13 +2,21 @@
 
 ## 📌 Project Overview
 
-This project analyzes a retail sales dataset to extract meaningful business insights using SQL for data aggregation and Python for data visualization.
+This project analyzes a retail sales dataset to extract meaningful business insights using SQL for data aggregation and Python (Pandas, Matplotlib, Seaborn) for data analysis and visualization.
 
 The objective is to evaluate:
 - Regional sales performance
 - Profitability across product categories
 - Customer segment contribution
 - Impact of discounting on profit
+
+---
+
+## 📁 Dataset
+
+- Dataset: Sample Superstore Dataset  
+- Records: 9,000+ rows  
+- Features: Sales, Profit, Discount, Category, Region, Customer Segment  
 
 ---
 
@@ -57,7 +65,30 @@ The dataset was loaded into an SQLite database and analyzed using SQL queries wi
 
 ## 📊 Visualization
 
-Bar charts were used for categorical comparisons and scatter plots were used to analyze relationships between numeric variables (e.g., Discount vs Profit).
+- Bar charts for categorical comparisons  
+- Scatter plot for analyzing Discount vs Profit relationship  
+
+---
+
+## 📂 Project Structure
+
+- sales_data_analysis.ipynb   # Main analysis notebook  
+- SampleSuperstore.csv       # Dataset  
+- Sales_Data.db              # SQLite database  
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository  
+2. Open the notebook in Jupyter  
+3. Run all cells to reproduce results  
+
+---
+
+## 🔗 Project Link
+
+👉 https://github.com/SudharsanJeevan/Sales-Data-Analysis-Sql-Python
 
 ---
 
@@ -65,10 +96,10 @@ Bar charts were used for categorical comparisons and scatter plots were used to 
 
 This project demonstrates:
 
-- SQL-based data aggregation
-- Data cleaning and preprocessing using Pandas
-- Business insight extraction
-- Data visualization for decision-making
+- SQL-based data aggregation  
+- Data cleaning and preprocessing using Pandas  
+- Business insight extraction  
+- Data visualization for decision-making  
 
 It showcases practical skills required for an entry-level Data Analyst role.
 
